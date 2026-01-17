@@ -30,6 +30,10 @@ int read_int();
 #endif
 ```
 
+**Portability**
+
+Since this program relies on the POSIX C library for making system calls it is very platform dependent to UNIX-like systems. Please refer to your platform's libraries or simply make a (better) alternative on your own platform.
+
 **Building**
 
 Simply use any C compiler and move the binary to your directory of choice that is accessible to your shell.
